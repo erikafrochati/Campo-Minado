@@ -6,8 +6,13 @@
 
 	var graphs = {};
 
+	var tituloJogo = document.getElementById("tituloJogo");
+
 	const resetButton = document.getElementById('resetGame');
 
+
+	// Define o título inicial
+	tituloJogo.innerHTML = "Campo Minado";
 
 	function createCanvas (w, h) {
 		canvas = document.createElement('canvas');
